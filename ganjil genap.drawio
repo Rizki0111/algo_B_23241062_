@@ -1,9 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T03:54:09.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" version="22.0.4" etag="Sx7Kgm7_bDFU_o7po4Uk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T04:36:04.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="fcdlitPKe0RZf6Nx9_so" version="22.0.4" type="github">
   <diagram name="Page-1" id="NiKetnM6CQDGSiN2ejif">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CKsZPQIBu417IgH_w-Tm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-1" value="mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-4" value="y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CKsZPQIBu417IgH_w-Tm-3">
+          <mxGeometry x="-0.6694" y="10" relative="1" as="geometry">
+            <mxPoint x="510" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-9" value="t" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CKsZPQIBu417IgH_w-Tm-3" target="CKsZPQIBu417IgH_w-Tm-8">
+          <mxGeometry x="-0.0244" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="180" />
+              <mxPoint x="320" y="180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-3" value="bil%2=0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CKsZPQIBu417IgH_w-Tm-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-7" value="genap" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CKsZPQIBu417IgH_w-Tm-8" target="CKsZPQIBu417IgH_w-Tm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-8" value="ganjil" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKsZPQIBu417IgH_w-Tm-12" value="selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
